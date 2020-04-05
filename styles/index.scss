@@ -2,4 +2,23 @@ $black: #000000;
 $jet: #232323;
 $silver: #BABABA;
 $steel: #A2AAF2;
-$blue: #59FCFF;
+$blue: #2885FF;
+
+
+#time-box{
+    border: 1.5px solid $black;
+    border-radius: 10px;
+    padding: 10px 13px 10px 13px;;
+}
+
+#time{
+    @extend #time-box
+}
+
+#time-output{
+    margin: 15px 10px 15px 35%;
+    font: {
+        size: 25px;
+        family: "Lucida Console";
+    }
+}

@@ -1,2 +1,12 @@
+#time-box, #time {
+  border: 1.5px solid #000000;
+  border-radius: 10px;
+  padding: 10px 13px 10px 13px;
+}
 
+#time-output {
+  margin: 15px 10px 15px 35%;
+  font-size: 25px;
+  font-family: "Lucida Console";
+}
 /*# sourceMappingURL=index.css.map */
